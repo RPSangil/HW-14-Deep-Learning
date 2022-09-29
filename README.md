@@ -1,46 +1,9 @@
 # HW-14-Deep-Learning
-**Unit <#> - <Title>**
+**Unit 14 - LSTM Stock Predictor**
 
 ## The Scenario
 
-<Project Scenario>
+Due to the volatility of cryptocurrency speculation, investors will often try to incorporate sentiment from social media and news articles to help guide their trading strategies. One such indicator is the Crypto Fear and Greed Index (FNG) which attempts to use a variety of data sources to produce a daily FNG value for cryptocurrency. You have been asked to help build and evaluate deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
 
-## Navigating the GitHub
+In this assignment, you will use deep learning recurrent neural networks to model bitcoin closing prices. One model will use the FNG indicators to predict the closing price while the second model will use a window of closing prices to predict the nth closing price.
 
-The following was provided at the beginging of the assessment and can be found in the Starter_code folder:
-
-- [Insert Given Notebook Name](this is a link)
-- [Inset Resource given](this is a link)
-- [Inset Resource given](this is a link)
-
-In the Worked_Code folder you will find:
-
-- [Insert Given Notebook Name](this is a link) - Contains images of all the plots created in the ipynb files.
-- [Inset Resource given](this is a link) - The code I have written for this notebook.
-- [Inset Resource given](this is a link) - The code I have written for this notebook.
-
-## Important Notice
-
-1. Please view this github in Day Theme - Light Default so that headers and axises on the plots show.
-
-## <Heading>
-
-### <Sub-Heading>
-
-<ins> <subject> </ins>
-
-![Image name](this is a link)
-
-**Question:** <question>
-
-**Answer:** <answer>
-
-### <Heading> Conclusions
-
-1. **<question>**
-
-- <answer>
-
-
-# Reference List
-- [<sup>1</sup> this is a link](this is a link)
